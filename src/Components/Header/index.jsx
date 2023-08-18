@@ -1,12 +1,11 @@
 import React from "react";
 import style from "../Styles/header.module.css";
-import PageStartApp from "Components/Pages/PageStartApp";
 
 export default function Header() {
   return (
     <>
       <nav className={style.nav}>
-        <a href="/" className={style.g}>
+        <a href="/PaginaInicial" className={style.g}>
           <span className={style.g}>
             G<span className={style.ponto}>.</span>
           </span>
@@ -15,7 +14,7 @@ export default function Header() {
           <a href="/SobreMim" className={style.a}>
             Sobre Mim
           </a>
-          <a href="/Projetos" className={style.a}>
+          <a href="#Projetos" className={style.a}>
             Projetos
           </a>
           <a href="#Esperiencia" className={style.a}>
