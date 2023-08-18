@@ -58,7 +58,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    color: #FFF;
+    color: #00E833;
     padding: 6px;
     left: 15%;
 }
@@ -68,7 +68,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    color: #FFF;
+    color: #00E833;
     padding: 5px;
     top: 20%;
     left: 25%;
@@ -128,7 +128,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    color: #FFF;
+    color: #00E833;
     padding: 6px;
     left: 25%;
 }
@@ -138,7 +138,7 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    color: #FFF;
+    color: #00E833;
     padding: 5px;
     top: 20%;
     left: 20%;
