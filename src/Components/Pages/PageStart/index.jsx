@@ -1,7 +1,6 @@
 import React from "react";
 import style from "../../Styles/pageStart.module.css";
 import Svgs from "Components/Svgs";
-import Box from "Components/Effects/Box";
 
 export default function PageStart() {
   return (

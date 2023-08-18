@@ -10,7 +10,7 @@ body {
 .nav {
     background: rgba(31, 29, 29, 0.32);
     width: 4%;
-    height: 100vh;
+    height: 200vh;
     position: -webkit-sticky;
     position: absolute;
     top: 0%;
@@ -19,6 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: fixed;
 }
 
 .a {

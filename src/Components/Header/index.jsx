@@ -1,5 +1,6 @@
 import React from "react";
 import style from "../Styles/header.module.css";
+import PageStartApp from "Components/Pages/PageStartApp";
 
 export default function Header() {
   return (
@@ -18,7 +19,7 @@ export default function Header() {
           <a href="#Esperiencia" className={style.a}>
             Experiências
           </a>
-          <a href="#Contatos" className={style.a}>
+          <a href="Contatos" className={style.a}>
             Contatos
           </a>
         </div>

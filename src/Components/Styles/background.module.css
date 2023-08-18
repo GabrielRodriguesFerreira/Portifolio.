@@ -1,4 +1,7 @@
 body {
     background: rgb(22, 22, 22);
     scroll-behavior: smooth;
+    width: 100vh;
+    height: 100vh;
+    overflow: scroll;
 }

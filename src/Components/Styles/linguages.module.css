@@ -1,0 +1,97 @@
+.linguages {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 110%;
+    top: 70%;
+}
+
+.trabalho {
+    display: flex;
+    width: 140px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Paytone One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: -10%;
+    left: 20%;
+}
+
+.linguages__ling {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #FFF;
+    padding: 6px;
+    left: 15%;
+
+}
+
+.linguages__ling2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #FFF;
+    padding: 5px;
+    top: 20%;
+    left: 25%;
+
+}
+
+.fun {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    left: 111%;
+    top: 130%;
+}
+
+.fun__hob {
+    display: flex;
+    width: 140px;
+    height: 24px;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Paytone One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: -10%;
+    left: 15%;
+}
+
+.linguages__fun {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #FFF;
+    padding: 6px;
+    left: 20%;
+}
+
+.linguages__fun2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: #FFF;
+    padding: 5px;
+    top: 20%;
+    left: 15%;
+}

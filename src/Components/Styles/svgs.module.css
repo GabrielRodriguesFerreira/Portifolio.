@@ -5,7 +5,7 @@
     fill: none;
     left: 5%;
     top: 3%;
-    position: absolute;
+    position: fixed;
 }
 
 .github {
@@ -15,7 +15,7 @@
     fill: none;
     left: 7%;
     top: 3%;
-    position: absolute;
+    position: fixed;
 }
 
 .alura {
@@ -25,7 +25,7 @@
     fill: none;
     left: 9%;
     top: 3%;
-    position: absolute;
+    position: fixed;
 }
 
 @media screen and (max-width: 768px) {

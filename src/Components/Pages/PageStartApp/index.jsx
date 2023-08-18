@@ -8,7 +8,6 @@ export default function PageStartApp() {
     <>
       <Header />
       <PageStart />
-      <Backgrounds />
     </>
   );
 }

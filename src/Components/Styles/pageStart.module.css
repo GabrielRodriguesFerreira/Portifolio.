@@ -146,7 +146,7 @@ h3 {
 
 button {
     border-radius: 10px;
-    background: #18730A;
+    background: #09b32d;
     width: 120px;
     height: 48px;
     border-bottom: 10px;
@@ -215,7 +215,7 @@ button {
     }
 
     button {
-        top: 290%;
+        top: 260%;
     }
 
 }
@@ -234,38 +234,6 @@ button {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-@keyframes clip-text {
-    from {
-        clip-path: inset(0 100% 0 0);
-    }
-
-    to {
-        clip-path: inset(0 0 0 0);
-    }
-}
-
-@keyframes text-revealer {
-
-    0%,
-    50% {
-        transform-origin: 0 50%;
-    }
-
-    60%,
-    100% {
-        transform-origin: 100% 50%;
-    }
-
-
-    60% {
-        transform: scaleX(1);
-    }
-
-    100% {
-        transform: scaleX(0);
-    }
-}
-
 h2,
 h2::after {
     animation-delay: var(--animation-delay, 2s);
@@ -275,38 +243,6 @@ h2::after {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-@keyframes clip-text {
-    from {
-        clip-path: inset(0 100% 0 0);
-    }
-
-    to {
-        clip-path: inset(0 0 0 0);
-    }
-}
-
-@keyframes text-revealer {
-
-    0%,
-    50% {
-        transform-origin: 0 50%;
-    }
-
-    60%,
-    100% {
-        transform-origin: 100% 50%;
-    }
-
-
-    60% {
-        transform: scaleX(1);
-    }
-
-    100% {
-        transform: scaleX(0);
-    }
-}
-
 h3,
 h3::after {
     animation-delay: var(--animation-delay, 2s);
@@ -314,38 +250,6 @@ h3::after {
     animation-duration: var(--duration, 800ms);
     animation-fill-mode: both;
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
-}
-
-@keyframes clip-text {
-    from {
-        clip-path: inset(0 100% 0 0);
-    }
-
-    to {
-        clip-path: inset(0 0 0 0);
-    }
-}
-
-@keyframes text-revealer {
-
-    0%,
-    50% {
-        transform-origin: 0 50%;
-    }
-
-    60%,
-    100% {
-        transform-origin: 100% 50%;
-    }
-
-
-    60% {
-        transform: scaleX(1);
-    }
-
-    100% {
-        transform: scaleX(0);
-    }
 }
 
 button,
