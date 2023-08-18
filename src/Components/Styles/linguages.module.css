@@ -194,3 +194,15 @@
         transform: scaleX(0);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .linguages {
+        left: 0%;
+        top: 570%;
+    }
+
+    .fun {
+        left: 0%;
+        top: 680%;
+    }
+}
