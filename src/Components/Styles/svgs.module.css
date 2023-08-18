@@ -1,0 +1,46 @@
+.linkedin {
+    width: 20%;
+    height: 20%;
+    viewBox: 0 0 20 20;
+    fill: none;
+    left: 5%;
+    top: 3%;
+    position: absolute;
+}
+
+.github {
+    width: 20%;
+    height: 20%;
+    viewBox: 0 0 20 20;
+    fill: none;
+    left: 7%;
+    top: 3%;
+    position: absolute;
+}
+
+.alura {
+    width: 30%;
+    height: 20%;
+    viewBox: 0 0 20 20;
+    fill: none;
+    left: 9%;
+    top: 3%;
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .linkedin {
+        left: 12%;
+        top: 2%;
+    }
+
+    .github {
+        left: 18%;
+        top: 2%;
+    }
+
+    .alura {
+        left: 24%;
+        top: 2%;
+    }
+}

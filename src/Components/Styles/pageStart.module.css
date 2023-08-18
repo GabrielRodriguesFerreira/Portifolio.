@@ -1,0 +1,416 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Paytone+One&display=swap');
+
+:root {
+    --delay: 0;
+    --duration: 800ms;
+    --iterations: 1;
+}
+
+body {
+    overflow: hidden;
+}
+
+.textPrinc {
+    color: #FFF;
+    font-family: Paytone One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: default;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.spanPonto {
+    color: #00E833;
+    font-family: Paytone One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.divPrinc {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+.frontEnd {
+    color: #00E833;
+    font-family: Paytone One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    overflow: hidden;
+    position: relative;
+}
+
+h2 {
+    color: #FFF;
+    font-family: Pavanam;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 60%;
+}
+
+h3 {
+    color: #FFF;
+    font-family: Pavanam;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 70%;
+    position: absolute;
+    top: 100%;
+}
+
+.spanBemVindo {
+    color: #00E833;
+    font-family: Paytone One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+button {
+    border-radius: 10px;
+    background: #18730A;
+    width: 120px;
+    height: 48px;
+    border-bottom: 10px;
+    top: 185%;
+    position: absolute;
+}
+
+.email {
+    color: #FFF;
+    font-family: Pavanam;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .divPrinc {
+        top: 5%;
+        left: 15%;
+    }
+
+    .textPrinc {
+        font-size: 40px;
+    }
+
+    .spanPonto {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 28px;
+        top: 70%;
+    }
+
+    .frontEnd {
+        font-size: 28px;
+    }
+
+    h3 {
+        top: 130%;
+        width: 100%;
+    }
+
+    button {
+        top: 260%;
+    }
+
+}
+
+::selection {
+    background-color: rgb(22, 22, 22);
+    color: #00E833;
+}
+
+.textPrinc,
+.textPrinc::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.textPrinc {
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    position: relative;
+    font-size: 64px;
+    animation-name: clip-text;
+    color: #FFF;
+    white-space: nowrap;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+@keyframes clip-text {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+
+@keyframes text-revealer {
+
+    0%,
+    50% {
+        transform-origin: 0 50%;
+    }
+
+    60%,
+    100% {
+        transform-origin: 100% 50%;
+    }
+
+
+    60% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+h2,
+h2::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+h2 {
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    position: absolute;
+    font-size: 32px;
+    top: 60%;
+    animation-name: clip-text;
+    color: #FFF;
+    white-space: nowrap;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+@keyframes clip-text {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+
+@keyframes text-revealer {
+
+    0%,
+    50% {
+        transform-origin: 0 50%;
+    }
+
+    60%,
+    100% {
+        transform-origin: 100% 50%;
+    }
+
+
+    60% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+h3,
+h3::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+h3 {
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    position: absolute;
+    font-size: 20px;
+    top: 100%;
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+@keyframes clip-text {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+
+@keyframes text-revealer {
+
+    0%,
+    50% {
+        transform-origin: 0 50%;
+    }
+
+    60%,
+    100% {
+        transform-origin: 100% 50%;
+    }
+
+
+    60% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+}
+
+button,
+button::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+button {
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    position: absolute;
+    font-size: 20px;
+    top: 175%;
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+@keyframes clip-text {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+
+@keyframes text-revealer {
+
+    0%,
+    50% {
+        transform-origin: 0 50%;
+    }
+
+    60%,
+    100% {
+        transform-origin: 100% 50%;
+    }
+
+
+    60% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+}
