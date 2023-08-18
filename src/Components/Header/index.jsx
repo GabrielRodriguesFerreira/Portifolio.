@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <>
       <nav className={style.nav}>
-        <a href="/PaginaInicial" className={style.g}>
+        <a href="/" className={style.g}>
           <span className={style.g}>
             G<span className={style.ponto}>.</span>
           </span>
