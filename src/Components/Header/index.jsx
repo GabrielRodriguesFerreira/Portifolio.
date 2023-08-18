@@ -6,14 +6,16 @@ export default function Header() {
   return (
     <>
       <nav className={style.nav}>
-        <span className={style.g}>
-          G<span className={style.ponto}>.</span>
-        </span>
+        <a href="/PaginaInicial" className={style.g}>
+          <span className={style.g}>
+            G<span className={style.ponto}>.</span>
+          </span>
+        </a>
         <div className={style.itens}>
-          <a href="#SobreMim" className={style.a}>
+          <a href="/SobreMim" className={style.a}>
             Sobre Mim
           </a>
-          <a href="#Projetos" className={style.a}>
+          <a href="/Projetos" className={style.a}>
             Projetos
           </a>
           <a href="#Esperiencia" className={style.a}>
