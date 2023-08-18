@@ -19,6 +19,28 @@ body {
     line-height: normal;
     cursor: default;
     transition: background-color 0.3s ease-in-out;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    position: relative;
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
 }
 
 .spanPonto {
@@ -56,6 +78,27 @@ h2 {
     line-height: normal;
     position: absolute;
     top: 60%;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
 }
 
 h3 {
@@ -68,6 +111,28 @@ h3 {
     width: 70%;
     position: absolute;
     top: 100%;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    top: 100%;
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
 }
 
 .spanBemVindo {
@@ -85,8 +150,29 @@ button {
     width: 120px;
     height: 48px;
     border-bottom: 10px;
-    top: 185%;
     position: absolute;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    top: 175%;
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
 }
 
 .email {
@@ -115,7 +201,8 @@ button {
 
     h2 {
         font-size: 28px;
-        top: 70%;
+        top: 75%;
+        width: 80%;
     }
 
     .frontEnd {
@@ -124,11 +211,11 @@ button {
 
     h3 {
         top: 130%;
-        width: 100%;
+        width: 90%;
     }
 
     button {
-        top: 260%;
+        top: 250%;
     }
 
 }
@@ -147,33 +234,6 @@ button {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.textPrinc {
-    --animation-delay: var(--delay, 0);
-    --animation-duration: var(--duration, 800ms);
-    --animation-iterations: var(--iterations, 1);
-    position: relative;
-    font-size: 64px;
-    animation-name: clip-text;
-    color: #FFF;
-    white-space: nowrap;
-    cursor: default;
-
-    &::after {
-        content: "";
-        position: absolute;
-        z-index: 999;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #00E833;
-        transform: scaleX(0);
-        transform-origin: 0 50%;
-        pointer-events: none;
-        animation-name: text-revealer;
-    }
-}
-
 @keyframes clip-text {
     from {
         clip-path: inset(0 100% 0 0);
@@ -183,7 +243,6 @@ button {
         clip-path: inset(0 0 0 0);
     }
 }
-
 
 @keyframes text-revealer {
 
@@ -216,34 +275,6 @@ h2::after {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-h2 {
-    --animation-delay: var(--delay, 0);
-    --animation-duration: var(--duration, 800ms);
-    --animation-iterations: var(--iterations, 1);
-    position: absolute;
-    font-size: 32px;
-    top: 60%;
-    animation-name: clip-text;
-    color: #FFF;
-    white-space: nowrap;
-    cursor: default;
-
-    &::after {
-        content: "";
-        position: absolute;
-        z-index: 999;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #00E833;
-        transform: scaleX(0);
-        transform-origin: 0 50%;
-        pointer-events: none;
-        animation-name: text-revealer;
-    }
-}
-
 @keyframes clip-text {
     from {
         clip-path: inset(0 100% 0 0);
@@ -253,7 +284,6 @@ h2 {
         clip-path: inset(0 0 0 0);
     }
 }
-
 
 @keyframes text-revealer {
 
@@ -286,33 +316,6 @@ h3::after {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-h3 {
-    --animation-delay: var(--delay, 0);
-    --animation-duration: var(--duration, 800ms);
-    --animation-iterations: var(--iterations, 1);
-    position: absolute;
-    font-size: 20px;
-    top: 100%;
-    animation-name: clip-text;
-    color: #FFF;
-    cursor: default;
-
-    &::after {
-        content: "";
-        position: absolute;
-        z-index: 999;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #00E833;
-        transform: scaleX(0);
-        transform-origin: 0 50%;
-        pointer-events: none;
-        animation-name: text-revealer;
-    }
-}
-
 @keyframes clip-text {
     from {
         clip-path: inset(0 100% 0 0);
@@ -322,7 +325,6 @@ h3 {
         clip-path: inset(0 0 0 0);
     }
 }
-
 
 @keyframes text-revealer {
 
@@ -355,33 +357,6 @@ button::after {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-button {
-    --animation-delay: var(--delay, 0);
-    --animation-duration: var(--duration, 800ms);
-    --animation-iterations: var(--iterations, 1);
-    position: absolute;
-    font-size: 20px;
-    top: 175%;
-    animation-name: clip-text;
-    color: #FFF;
-    cursor: default;
-
-    &::after {
-        content: "";
-        position: absolute;
-        z-index: 999;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #00E833;
-        transform: scaleX(0);
-        transform-origin: 0 50%;
-        pointer-events: none;
-        animation-name: text-revealer;
-    }
-}
-
 @keyframes clip-text {
     from {
         clip-path: inset(0 100% 0 0);
@@ -391,7 +366,6 @@ button {
         clip-path: inset(0 0 0 0);
     }
 }
-
 
 @keyframes text-revealer {
 
