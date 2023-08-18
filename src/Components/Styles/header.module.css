@@ -10,7 +10,7 @@ body {
 .nav {
     background: rgba(31, 29, 29, 0.32);
     width: 4%;
-    height: 200vh;
+    height: 300vh;
     position: -webkit-sticky;
     position: absolute;
     top: 0%;
@@ -66,6 +66,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .nav {
-        width: 10%;
+        width: 5%;
+        position: fixed
     }
 }

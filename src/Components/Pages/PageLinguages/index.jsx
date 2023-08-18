@@ -32,14 +32,16 @@ export default function Linguages() {
           />
         </svg>
         <h1 className={styles.trabalho}>Uso no Trabalho</h1>
-        <div className={styles.linguages__ling}>
-          <h5>MySQL</h5>
-          <h5>Oracle</h5>
-          <h5>Firebird</h5>
-        </div>
-        <div className={styles.linguages__ling2}>
-          <h5>Python</h5>
-          <h5>Pentaho</h5>
+        <div className={styles.effect}>
+          <div className={styles.linguages__ling}>
+            <h5>MySQL</h5>
+            <h5>Oracle</h5>
+            <h5>Firebird</h5>
+          </div>
+          <div className={styles.linguages__ling2}>
+            <h5>Python</h5>
+            <h5>Pentaho</h5>
+          </div>
         </div>
       </div>
 

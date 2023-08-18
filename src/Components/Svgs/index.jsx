@@ -4,7 +4,7 @@ import style from "../Styles/svgs.module.css";
 export default function Svgs() {
   return (
     <>
-      <header>
+      <header className={style.head}>
         <div className={style.div}>
           <a href="https://www.linkedin.com/in/gabriel-r-88b786204">
             <svg xmlns="http://www.w3.org/2000/svg" className={style.linkedin}>

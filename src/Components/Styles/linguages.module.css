@@ -1,3 +1,9 @@
+:root {
+    --delay: 0;
+    --duration: 800ms;
+    --iterations: 1;
+}
+
 .linguages {
     display: flex;
     justify-content: center;
@@ -20,9 +26,31 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
-    top: -10%;
     left: 20%;
+    top: -10%;
+    position: absolute;
+    transition: background-color 0.3s ease-in-out;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
 }
 
 .linguages__ling {
@@ -33,7 +61,6 @@
     color: #FFF;
     padding: 6px;
     left: 15%;
-
 }
 
 .linguages__ling2 {
@@ -45,7 +72,6 @@
     padding: 5px;
     top: 20%;
     left: 25%;
-
 }
 
 .fun {
@@ -72,7 +98,29 @@
     line-height: normal;
     position: absolute;
     top: -10%;
-    left: 15%;
+    left: 20%;
+    transition: background-color 0.3s ease-in-out;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
 }
 
 .linguages__fun {
@@ -82,7 +130,7 @@
     gap: 15px;
     color: #FFF;
     padding: 6px;
-    left: 20%;
+    left: 25%;
 }
 
 .linguages__fun2 {
@@ -93,5 +141,56 @@
     color: #FFF;
     padding: 5px;
     top: 20%;
-    left: 15%;
+    left: 20%;
+}
+
+.trabalho,
+.trabalho::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.fun__hob,
+.fun__hob::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+
+@keyframes clip-text {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes text-revealer {
+
+    0%,
+    50% {
+        transform-origin: 0 50%;
+    }
+
+    60%,
+    100% {
+        transform-origin: 100% 50%;
+    }
+
+
+    60% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
 }

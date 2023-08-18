@@ -249,3 +249,84 @@ section {
         transform: translate(0, 0);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        left: -25%;
+        position: relative;
+    }
+
+    .textPrinc {
+        font-size: 35px;
+    }
+
+    .linha {
+        width: 20%;
+    }
+
+    .spanPonto {
+        font-size: 35px;
+    }
+
+    .textoh2 {
+        top: 70%;
+        left: -3%;
+        position: absolute;
+        width: 53%;
+    }
+
+    .textoh3 {
+        position: absolute;
+        top: 260%;
+        left: -3%;
+        width: 53%;
+    }
+
+    .flecha {
+        stroke-width: 3px;
+        stroke: #00E833;
+        width: 30px;
+        height: 30px;
+        flex-shrink: 0;
+        top: 430%;
+        position: absolute;
+        left: 16%;
+    }
+
+    .linke {
+        width: 25px;
+        height: 25px;
+        fill: #565252;
+        position: absolute;
+        top: 430%;
+        left: 24%;
+    }
+
+    .git {
+        width: 25px;
+        height: 25px;
+        fill: #565252;
+        position: absolute;
+        top: 430%;
+        left: 30%;
+    }
+
+    .alu {
+        width: 40px;
+        height: 25px;
+        fill: #565252;
+        position: absolute;
+        top: 430%;
+        left: 36%;
+    }
+
+    .textoh4 {
+        position: absolute;
+        top: 411%;
+        left: -3%;
+    }
+}

@@ -38,7 +38,6 @@ export default function PageAboutMe() {
               dados, meu coração realmente bate mais forte quando estou
               construindo interfaces interativas e envolventes.
               <span className={style.spanBemVindo}>
-                {" "}
                 Sejam muito Bem-Vindos!
               </span>
             </h3>

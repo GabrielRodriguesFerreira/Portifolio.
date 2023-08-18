@@ -1,6 +1,6 @@
 .linkedin {
-    width: 20%;
-    height: 20%;
+    width: 20px;
+    height: 20px;
     viewBox: 0 0 20 20;
     fill: none;
     left: 5%;
@@ -9,8 +9,8 @@
 }
 
 .github {
-    width: 20%;
-    height: 20%;
+    width: 20px;
+    height: 20px;
     viewBox: 0 0 20 20;
     fill: none;
     left: 7%;
@@ -19,8 +19,8 @@
 }
 
 .alura {
-    width: 30%;
-    height: 20%;
+    width: 40px;
+    height: 20px;
     viewBox: 0 0 20 20;
     fill: none;
     left: 9%;
@@ -32,15 +32,18 @@
     .linkedin {
         left: 12%;
         top: 2%;
+        position: fixed;
     }
 
     .github {
         left: 18%;
         top: 2%;
+        position: fixed;
     }
 
     .alura {
         left: 24%;
         top: 2%;
+        position: fixed;
     }
 }
