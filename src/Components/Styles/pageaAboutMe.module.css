@@ -281,7 +281,7 @@ section {
 
     .textoh3 {
         position: absolute;
-        top: 260%;
+        top: 275%;
         left: -3%;
         width: 53%;
     }
@@ -292,7 +292,7 @@ section {
         width: 30px;
         height: 30px;
         flex-shrink: 0;
-        top: 430%;
+        top: 448%;
         position: absolute;
         left: 16%;
     }
@@ -302,7 +302,7 @@ section {
         height: 25px;
         fill: #565252;
         position: absolute;
-        top: 430%;
+        top: 450%;
         left: 24%;
     }
 
@@ -311,7 +311,7 @@ section {
         height: 25px;
         fill: #565252;
         position: absolute;
-        top: 430%;
+        top: 450%;
         left: 30%;
     }
 
@@ -320,13 +320,13 @@ section {
         height: 25px;
         fill: #565252;
         position: absolute;
-        top: 430%;
+        top: 450%;
         left: 36%;
     }
 
     .textoh4 {
         position: absolute;
-        top: 411%;
+        top: 430%;
         left: -3%;
     }
 }
