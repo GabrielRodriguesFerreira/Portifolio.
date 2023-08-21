@@ -8,7 +8,6 @@ export default function PageAboutMe() {
   return (
     <>
       <section>
-        <Svgs />
         <div className={style.divPrinc}>
           <div className={style.titulo}>
             <h1 className={style.textPrinc}>
