@@ -69,7 +69,7 @@ body {
     position: relative;
 }
 
-h2 {
+.h2front {
     color: #FFF;
     font-family: Pavanam;
     font-size: 32px;
@@ -101,7 +101,7 @@ h2 {
     }
 }
 
-h3 {
+.h3front {
     color: #FFF;
     font-family: Pavanam;
     font-size: 20px;
@@ -199,7 +199,7 @@ h3 {
         font-size: 40px;
     }
 
-    h2 {
+    .h2front {
         font-size: 28px;
         top: 75%;
         width: 80%;
@@ -209,7 +209,7 @@ h3 {
         font-size: 28px;
     }
 
-    h3 {
+    .h3front {
         top: 130%;
         width: 90%;
     }

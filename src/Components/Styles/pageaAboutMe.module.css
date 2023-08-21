@@ -24,7 +24,6 @@
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
     --animation-iterations: var(--iterations, 1);
-    position: relative;
     animation-name: clip-text;
     color: #FFF;
     cursor: default;
@@ -70,7 +69,30 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: absolute;
     top: 65%;
+    cursor: default;
+    transition: background-color 0.3s ease-in-out;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
 }
 
 .textoh3 {
@@ -80,8 +102,31 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    position: absolute;
     top: 130%;
     width: 100%;
+    cursor: default;
+    transition: background-color 0.3s ease-in-out;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
 }
 
 .titulo {

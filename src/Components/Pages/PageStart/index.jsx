@@ -12,10 +12,10 @@ export default function PageStart() {
           <h1 className={style.textPrinc}>
             Olá, me chamo Gabriel<span className={style.spanPonto}>.</span>
           </h1>
-          <h2>
+          <h2 className={style.h2front}>
             Sou um <span className={style.frontEnd}>Front-End Developer</span>
           </h2>
-          <h3>
+          <h3 className={style.h3front}>
             Nos últimos 2 anos, estive envolvido na área de desenvolvimento de
             software, colaborando com empresas que me empolgaram bastante. Este
             é o espaço onde apresento meus certificados, experiências e
