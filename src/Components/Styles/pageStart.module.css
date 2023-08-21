@@ -154,7 +154,7 @@ h3 {
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
     --animation-iterations: var(--iterations, 1);
-    top: 290%;
+    top: 180%;
     animation-name: clip-text;
     color: #FFF;
     cursor: default;
@@ -193,6 +193,7 @@ h3 {
 
     .textPrinc {
         font-size: 40px;
+        width: 100%;
     }
 
     .spanPonto {
@@ -214,8 +215,8 @@ h3 {
         width: 90%;
     }
 
-    button {
-        top: 260%;
+    .botao {
+        top: 270%;
     }
 
 }
