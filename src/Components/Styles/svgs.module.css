@@ -30,20 +30,20 @@
 
 @media screen and (max-width: 768px) {
     .linkedin {
-        left: 12%;
-        top: 1%;
+        left: 14%;
+        top: 2.5%;
         position: fixed;
     }
 
     .github {
-        left: 19%;
-        top: 1%;
+        left: 22%;
+        top: 2.5%;
         position: fixed;
     }
 
     .alura {
-        left: 26%;
-        top: 1%;
+        left: 30%;
+        top: 2.5%;
         position: fixed;
     }
 }

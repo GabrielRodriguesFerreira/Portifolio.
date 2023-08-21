@@ -247,6 +247,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .divPrinc {
+        top: 15%;
+    }
+
     .titulo {
         display: flex;
         width: 100%;
@@ -277,7 +281,7 @@
 
     .textoh3 {
         position: absolute;
-        top: 275%;
+        top: 295%;
         left: -3%;
         width: 53%;
     }
@@ -288,7 +292,7 @@
         width: 30px;
         height: 30px;
         flex-shrink: 0;
-        top: 498%;
+        top: 508%;
         position: absolute;
         left: 16%;
     }
@@ -298,7 +302,7 @@
         height: 25px;
         fill: #565252;
         position: absolute;
-        top: 500%;
+        top: 510%;
         left: 24%;
     }
 
@@ -307,7 +311,7 @@
         height: 25px;
         fill: #565252;
         position: absolute;
-        top: 500%;
+        top: 510%;
         left: 30%;
     }
 
@@ -316,13 +320,13 @@
         height: 25px;
         fill: #565252;
         position: absolute;
-        top: 500%;
+        top: 510%;
         left: 36%;
     }
 
     .textoh4 {
         position: absolute;
-        top: 480%;
+        top: 490%;
         left: -3%;
     }
 }
