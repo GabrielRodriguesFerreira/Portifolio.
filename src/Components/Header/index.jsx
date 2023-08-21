@@ -14,7 +14,7 @@ export default function Header() {
           <a href="/SobreMim" className={style.a}>
             Sobre Mim
           </a>
-          <a href="#Projetos" className={style.a}>
+          <a href="/Projetos" className={style.a}>
             Projetos
           </a>
           <a href="#Esperiencia" className={style.a}>

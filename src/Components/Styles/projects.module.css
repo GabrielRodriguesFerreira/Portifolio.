@@ -1,0 +1,359 @@
+body::-webkit-scrollbar {
+    width: 1px;
+}
+
+.tituloProjeto {
+    display: flex;
+    width: 861px;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    position: absolute;
+    top: -5%;
+    left: 20%
+}
+
+.textPrincProjetos {
+    color: #FFF;
+    font-family: Paytone One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.spanPontoProjetos {
+    color: #00E833;
+    font-family: Paytone One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.linhaProjetos {
+    width: 486px;
+    height: 1px;
+    background: #FFF;
+}
+
+.projetos1 {
+    display: flex;
+    width: 350px;
+    height: 230px;
+    justify-content: center;
+    align-items: center;
+    gap: 102px;
+    flex-shrink: 0;
+    top: 18%;
+    left: 39%;
+    position: absolute;
+}
+
+.divimg1 {
+    border-radius: 10px;
+    background: #110B1B;
+    width: 380px;
+    height: 222px;
+    flex-shrink: 0;
+}
+
+.projetos2 {
+    display: flex;
+    width: 857px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    top: 60%;
+    left: 20.5%;
+    position: absolute;
+}
+
+.divimg2 {
+    border-radius: 10px;
+    background: #110B1B;
+    width: 380px;
+    height: 222px;
+    flex-shrink: 0;
+}
+
+.divimg3 {
+    border-radius: 10px;
+    background: rgba(0, 130, 140, 0.28);
+    width: 380px;
+    height: 224px;
+    flex-shrink: 0;
+}
+
+.divimg4 {
+    border-radius: 10px;
+    background: rgba(2, 154, 165, 0.28);
+    width: 380px;
+    height: 220px;
+    flex-shrink: 0;
+}
+
+.titulosLinguages {
+    color: #FFF;
+    font-family: Paytone One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 100%;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.linhas {
+    width: 240px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    left: 68%;
+    top: 112%;
+}
+
+.estiloTitulo {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.git {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    position: absolute;
+    left: 98%;
+    top: 107%;
+}
+
+.linhas1 {
+    width: 240px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    left: 11%;
+    top: 112%;
+}
+
+.git1 {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    position: absolute;
+    left: 42%;
+    top: 107%;
+}
+
+.linhas2 {
+    width: 240px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    left: -50%;
+    top: 112%;
+}
+
+.git2 {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    position: absolute;
+    left: 30%;
+    top: 107%;
+}
+
+.titulosLinguages1 {
+    color: #FFF;
+    font-family: Paytone One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 100%;
+    left: -72%;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.linhas3 {
+    width: 240px;
+    height: 1px;
+    background: #FFF;
+    position: absolute;
+    left: 93%;
+    top: 112%;
+}
+
+.git3 {
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    position: absolute;
+    left: 168%;
+    top: 107%;
+}
+
+.titulosLinguages2 {
+    color: #FFF;
+    font-family: Paytone One;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 100%;
+    left: 65%;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.titulosLinguages,
+.titulosLinguages::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.titulosLinguages1,
+.titulosLinguages1::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.titulosLinguages2,
+.titulosLinguages2::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.textPrincProjetos,
+.textPrincProjetos::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+@keyframes clip-text {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes text-revealer {
+
+    0%,
+    50% {
+        transform-origin: 0 50%;
+    }
+
+    60%,
+    100% {
+        transform-origin: 100% 50%;
+    }
+
+
+    60% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+}
