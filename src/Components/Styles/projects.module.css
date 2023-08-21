@@ -391,7 +391,7 @@ body::-webkit-scrollbar {
 
     .divimg2 {
         position: absolute;
-        top: 0%;
+        top: -5%;
         width: 70%;
     }
 
@@ -427,26 +427,26 @@ body::-webkit-scrollbar {
     .linhaProjetos {
         position: absolute;
         width: 50%;
-        top: 65%;
+        top: 55%;
         left: 60%;
     }
 
     .titulosLinguages1 {
         position: absolute;
-        top: 240%;
+        top: 260%;
         left: 0%;
     }
 
     .linhas2 {
         position: absolute;
         width: 70%;
-        top: 250%;
+        top: 270%;
         left: 18%;
     }
 
     .git2 {
         position: absolute;
-        top: 245%;
+        top: 265%;
         left: 94%;
     }
 
