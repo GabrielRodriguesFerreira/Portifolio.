@@ -30,7 +30,7 @@ export default function Projects() {
           </div>
           <div className={style.projetos1}>
             <div className={style.divimg1}>
-              <img src={image1} />
+              <img className={style.imagens} src={image1} />
 
               <div className={style.estiloTitulo}>
                 <h1 className={style.titulosLinguages2}>Chat - Bot</h1>
@@ -46,7 +46,7 @@ export default function Projects() {
                   />
                 </svg>
                 <a
-                  href="https://github.com/GabrielRodriguesFerreira/Site-Singapura"
+                  href="https://github.com/GabrielRodriguesFerreira/Chat-Bot-IR"
                   target="_blank"
                 >
                   <svg
@@ -64,7 +64,7 @@ export default function Projects() {
               </div>
             </div>
             <div className={style.divimg2}>
-              <img src={image2} />
+              <img className={style.imagens} src={image2} />
               <div className={style.estiloTitulo}>
                 <h1 className={style.titulosLinguages1}>HTML</h1>
                 <svg
@@ -79,7 +79,7 @@ export default function Projects() {
                   />
                 </svg>
                 <a
-                  href="https://github.com/GabrielRodriguesFerreira/Chat-Bot-IR"
+                  href="https://github.com/GabrielRodriguesFerreira/Site-Singapura"
                   target="_blank"
                 >
                   <svg
@@ -99,7 +99,7 @@ export default function Projects() {
           </div>
           <div className={style.projetos2}>
             <div className={style.divimg3}>
-              <img src={image3} />
+              <img className={style.imagens} src={image3} />
 
               <div className={style.estiloTitulo}>
                 <h1 className={style.titulosLinguages}>Python</h1>
@@ -133,7 +133,7 @@ export default function Projects() {
               </div>
             </div>
             <div className={style.divimg4}>
-              <img className={style.foto} src={image4} />
+              <img className={style.imagens} src={image4} />
 
               <div className={style.estiloTitulo}>
                 <h1 className={style.titulosLinguages}>JavaScript</h1>

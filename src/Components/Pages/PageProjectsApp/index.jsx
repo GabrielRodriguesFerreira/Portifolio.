@@ -1,11 +1,11 @@
-import Header from "Components/Header";
 import React from "react";
 import Projects from "../PageProjects";
+import HeaderProjects from "Components/HeaderProjetcs";
 
 export default function ProjetcApp() {
   return (
     <>
-      <Header />
+      <HeaderProjects />
       <Projects />
     </>
   );

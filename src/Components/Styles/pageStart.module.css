@@ -6,14 +6,10 @@
     --iterations: 1;
 }
 
-body {
-    overflow: hidden;
-}
-
 .textPrincStart {
     color: #FFF;
     font-family: Paytone One;
-    font-size: 64px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -155,7 +151,7 @@ body {
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
     --animation-iterations: var(--iterations, 1);
-    top: 180%;
+    top: 200%;
     animation-name: clip-text;
     color: #FFF;
     cursor: default;
@@ -188,36 +184,36 @@ body {
 
 @media screen and (max-width: 768px) {
     .divPrinc {
-        top: 15%;
+        top: 10%;
         left: 15%;
     }
 
-    .textPrinc {
-        font-size: 40px;
+    .textPrincStart {
+        font-size: 30px;
         width: 100%;
     }
 
-    .spanPonto {
+    .spanPontoStart {
         font-size: 40px;
     }
 
-    .h2front {
+    .h2frontStart {
         font-size: 28px;
         top: 75%;
         width: 80%;
     }
 
-    .frontEnd {
+    .frontEndStart {
         font-size: 28px;
     }
 
-    .h3front {
-        top: 130%;
-        width: 90%;
+    .h3frontStart {
+        top: 150%;
+        width: 95%;
     }
 
-    .botao {
-        top: 280%;
+    .botaoStart {
+        top: 350%;
     }
 
 }

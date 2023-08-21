@@ -357,3 +357,139 @@ body::-webkit-scrollbar {
         transform: scaleX(0);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .projetos1 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 25%;
+        left: 17%;
+    }
+
+    .projetos2 {
+        display: block;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 94%;
+        left: 17%;
+    }
+
+    .divimg4 {
+        position: absolute;
+        top: 35%;
+        width: 70%;
+    }
+
+    .divimg3 {
+        position: absolute;
+        top: 0%;
+        width: 70%;
+    }
+
+    .divimg2 {
+        position: absolute;
+        top: 0%;
+        width: 70%;
+    }
+
+    .imagens {
+        width: 100%;
+        height: 100%;
+    }
+
+    .divimg1 {
+        position: absolute;
+        top: 35%;
+        width: 70%;
+    }
+
+    .tituloProjeto {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        top: 10%;
+        left: 17%;
+
+    }
+
+    .textPrincProjetos {
+        font-size: 30px;
+    }
+
+    .spanPontoProjetos {
+        font-size: 30px;
+    }
+
+    .linhaProjetos {
+        position: absolute;
+        width: 50%;
+        top: 65%;
+        left: 60%;
+    }
+
+    .titulosLinguages1 {
+        position: absolute;
+        top: 240%;
+        left: 0%;
+    }
+
+    .linhas2 {
+        position: absolute;
+        width: 70%;
+        top: 250%;
+        left: 18%;
+    }
+
+    .git2 {
+        position: absolute;
+        top: 245%;
+        left: 94%;
+    }
+
+    .titulosLinguages2 {
+        position: absolute;
+        left: 0%;
+        top: -43%;
+    }
+
+    .linhas3 {
+        position: absolute;
+        left: 32%;
+        top: -31%;
+        width: 55%;
+
+    }
+
+    .git3 {
+        position: absolute;
+        left: 93%;
+        top: -36%;
+    }
+
+    .linhas {
+        position: absolute;
+        left: 35%;
+        width: 50%;
+    }
+
+    .git {
+        position: absolute;
+        left: 93%;
+    }
+
+    .linhas1 {
+        position: absolute;
+        left: 30%;
+        width: 60%;
+    }
+
+    .git1 {
+        position: absolute;
+        left: 93%;
+        width: 60%;
+    }
+}
