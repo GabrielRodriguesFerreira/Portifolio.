@@ -10,7 +10,7 @@ body {
     overflow: hidden;
 }
 
-.textPrinc {
+.textPrincStart {
     color: #FFF;
     font-family: Paytone One;
     font-size: 64px;
@@ -43,7 +43,7 @@ body {
     }
 }
 
-.spanPonto {
+.spanPontoStart {
     color: #00E833;
     font-family: Paytone One;
     font-size: 64px;
@@ -52,13 +52,13 @@ body {
     line-height: normal;
 }
 
-.divPrinc {
+.divPrincStart {
     position: absolute;
     top: 20%;
     left: 20%;
 }
 
-.frontEnd {
+.frontEndStart {
     color: #00E833;
     font-family: Paytone One;
     font-size: 32px;
@@ -69,7 +69,7 @@ body {
     position: relative;
 }
 
-.h2front {
+.h2frontStart {
     color: #FFF;
     font-family: Pavanam;
     font-size: 32px;
@@ -102,7 +102,7 @@ body {
     }
 }
 
-.h3front {
+.h3frontStart {
     color: #FFF;
     font-family: Pavanam;
     font-size: 20px;
@@ -136,7 +136,7 @@ body {
     }
 }
 
-.spanBemVindo {
+.spanBemVindoStart {
     color: #00E833;
     font-family: Paytone One;
     font-size: 20px;
@@ -145,7 +145,7 @@ body {
     line-height: normal;
 }
 
-.botao {
+.botaoStart {
     border-radius: 10px;
     background: #09b32d;
     width: 120px;
@@ -176,7 +176,7 @@ body {
     }
 }
 
-.email {
+.emailStart {
     color: #FFF;
     font-family: Pavanam;
     font-size: 20px;
@@ -227,8 +227,8 @@ body {
     color: #00E833;
 }
 
-.textPrinc,
-.textPrinc::after {
+.textPrincStart,
+.textPrincStart::after {
     animation-delay: var(--animation-delay, 2s);
     animation-iteration-count: var(--iterations, 1);
     animation-duration: var(--duration, 800ms);
@@ -236,8 +236,8 @@ body {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.h2front,
-.h2front::after {
+.h2frontStart,
+.h2frontStart::after {
     animation-delay: var(--animation-delay, 2s);
     animation-iteration-count: var(--iterations, 1);
     animation-duration: var(--duration, 800ms);
@@ -245,8 +245,8 @@ body {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.h3front,
-.h3front::after {
+.h3frontStart,
+.h3frontStart::after {
     animation-delay: var(--animation-delay, 2s);
     animation-iteration-count: var(--iterations, 1);
     animation-duration: var(--duration, 800ms);
@@ -254,8 +254,8 @@ body {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.botao,
-.botao::after {
+.botaoStart,
+.botaoStart::after {
     animation-delay: var(--animation-delay, 2s);
     animation-iteration-count: var(--iterations, 1);
     animation-duration: var(--duration, 800ms);
