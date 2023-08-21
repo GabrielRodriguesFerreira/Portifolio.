@@ -234,8 +234,8 @@ body {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-h2,
-h2::after {
+.h2front,
+.h2front::after {
     animation-delay: var(--animation-delay, 2s);
     animation-iteration-count: var(--iterations, 1);
     animation-duration: var(--duration, 800ms);
@@ -243,8 +243,8 @@ h2::after {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-h3,
-h3::after {
+.h3front,
+.h3front::after {
     animation-delay: var(--animation-delay, 2s);
     animation-iteration-count: var(--iterations, 1);
     animation-duration: var(--duration, 800ms);
@@ -252,8 +252,8 @@ h3::after {
     animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-button,
-button::after {
+.botao,
+.botao::after {
     animation-delay: var(--animation-delay, 2s);
     animation-iteration-count: var(--iterations, 1);
     animation-duration: var(--duration, 800ms);
