@@ -80,7 +80,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 120%;
+    top: 130%;
     width: 100%;
 }
 
@@ -104,7 +104,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 170%;
+    top: 180%;
     transition: background-color 0.3s ease-in-out;
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
@@ -136,7 +136,7 @@
     width: 30px;
     height: 30px;
     flex-shrink: 0;
-    top: 180%;
+    top: 192%;
     position: absolute;
     left: 20%;
 }
@@ -146,7 +146,7 @@
     height: 25px;
     fill: #565252;
     position: absolute;
-    top: 180%;
+    top: 192%;
     left: 30%;
 }
 
@@ -155,7 +155,7 @@
     height: 25px;
     fill: #565252;
     position: absolute;
-    top: 180%;
+    top: 192%;
     left: 35%;
 }
 
@@ -164,7 +164,7 @@
     height: 25px;
     fill: #565252;
     position: absolute;
-    top: 180%;
+    top: 192%;
     left: 40%;
 }
 
