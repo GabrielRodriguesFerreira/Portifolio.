@@ -74,3 +74,11 @@ body {
         height: 120px;
     }
 }
+
+.a:hover {
+    background-color: rgb(101, 105, 110);
+    height: 30%;
+    width: 50px;
+    color: #FFF;
+    transition-delay: 0.5ms;
+}
