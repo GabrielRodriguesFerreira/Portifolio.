@@ -433,20 +433,20 @@ body::-webkit-scrollbar {
 
     .titulosLinguages1 {
         position: absolute;
-        top: 260%;
+        top: 255%;
         left: 0%;
     }
 
     .linhas2 {
         position: absolute;
         width: 70%;
-        top: 270%;
-        left: 18%;
+        top: 266%;
+        left: 20%;
     }
 
     .git2 {
         position: absolute;
-        top: 265%;
+        top: 262%;
         left: 94%;
     }
 
