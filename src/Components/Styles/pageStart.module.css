@@ -144,7 +144,7 @@ h3 {
     line-height: normal;
 }
 
-button {
+.botao {
     border-radius: 10px;
     background: #09b32d;
     width: 120px;
@@ -154,7 +154,7 @@ button {
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
     --animation-iterations: var(--iterations, 1);
-    top: 175%;
+    top: 290%;
     animation-name: clip-text;
     color: #FFF;
     cursor: default;

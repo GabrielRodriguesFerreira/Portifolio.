@@ -1,10 +1,10 @@
 import React from "react";
-import style from "../Styles/header.module.css";
+import style from "../Styles/headerStart.module.css";
 
-export default function Header() {
+export default function HeaderStart() {
   return (
     <>
-      <nav className={style.nav}>
+      <nav className={style.navStart}>
         <a href="/" className={style.g}>
           <span className={style.g}>
             G<span className={style.ponto}>.</span>

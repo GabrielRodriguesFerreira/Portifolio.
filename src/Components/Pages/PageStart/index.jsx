@@ -22,7 +22,7 @@ export default function PageStart() {
             projetos.
             <span className={style.spanBemVindo}> Sejam muito Bem-Vindos!</span>
           </h3>
-          <button>
+          <button className={style.botao}>
             <a
               className={style.email}
               href="mailto:gabrielrferreira0306@gmail.com?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Conteúdo do email que será preenchido automaticamente"
