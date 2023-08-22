@@ -17,7 +17,7 @@ export default function HeaderProjects() {
           <a href="/Projetos" className={style.a}>
             Projetos
           </a>
-          <a href="#Esperiencia" className={style.a}>
+          <a href="/Experiencia" className={style.a}>
             Experiências
           </a>
           <a href="#Contatos" className={style.a}>

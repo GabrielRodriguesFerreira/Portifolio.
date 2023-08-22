@@ -1,7 +1,7 @@
 import React from "react";
-import style from "../Styles/header.module.css";
+import style from "../Styles/headerExp.module.css";
 
-export default function Header() {
+export default function HeaderExp() {
   return (
     <>
       <nav className={style.nav}>
