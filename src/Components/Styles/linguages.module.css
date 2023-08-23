@@ -26,8 +26,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    left: 20%;
-    top: -10%;
+    left: 25%;
+    top: 0%;
     position: absolute;
     transition: background-color 0.3s ease-in-out;
     --animation-delay: var(--delay, 0);
@@ -60,7 +60,8 @@
     gap: 15px;
     color: #00E833;
     padding: 6px;
-    left: 15%;
+    left: 2em;
+    top: 15%;
 }
 
 .linguages__ling2 {
@@ -70,8 +71,8 @@
     gap: 15px;
     color: #00E833;
     padding: 5px;
-    top: 20%;
-    left: 25%;
+    top: 35%;
+    left: 4.5em;
 }
 
 .fun {
@@ -80,7 +81,7 @@
     align-items: flex-start;
     position: absolute;
     left: 111%;
-    top: 130%;
+    top: 230%;
 }
 
 .fun__hob {
@@ -97,8 +98,8 @@
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: -10%;
-    left: 20%;
+    top: -0%;
+    left: 25%;
     transition: background-color 0.3s ease-in-out;
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
@@ -131,6 +132,7 @@
     color: #00E833;
     padding: 6px;
     left: 25%;
+    top: 15%;
 }
 
 .linguages__fun2 {
@@ -140,8 +142,8 @@
     gap: 15px;
     color: #00E833;
     padding: 5px;
-    top: 20%;
-    left: 20%;
+    top: 35%;
+    left: 3.5em
 }
 
 .trabalho,
@@ -197,12 +199,12 @@
 
 @media screen and (max-width: 768px) {
     .linguages {
-        left: 0%;
-        top: 630%;
+        left: -1em;
+        top: 45em;
     }
 
     .fun {
-        left: 0%;
-        top: 740%;
+        left: -1em;
+        top: 52em;
     }
 }

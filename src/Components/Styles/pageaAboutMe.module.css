@@ -70,7 +70,7 @@
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: 65%;
+    top: 95%;
     cursor: default;
     transition: background-color 0.3s ease-in-out;
     --animation-delay: var(--delay, 0);
@@ -103,7 +103,7 @@
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: 130%;
+    top: 230%;
     width: 100%;
     cursor: default;
     transition: background-color 0.3s ease-in-out;
@@ -149,7 +149,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    top: 180%;
+    top: 340%;
     transition: background-color 0.3s ease-in-out;
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
@@ -181,7 +181,7 @@
     width: 30px;
     height: 30px;
     flex-shrink: 0;
-    top: 192%;
+    top: 338%;
     position: absolute;
     left: 20%;
 }
@@ -191,7 +191,7 @@
     height: 25px;
     fill: #565252;
     position: absolute;
-    top: 192%;
+    top: 338%;
     left: 30%;
 }
 
@@ -200,7 +200,7 @@
     height: 25px;
     fill: #565252;
     position: absolute;
-    top: 192%;
+    top: 338%;
     left: 35%;
 }
 
@@ -209,7 +209,7 @@
     height: 25px;
     fill: #565252;
     position: absolute;
-    top: 192%;
+    top: 338%;
     left: 40%;
 }
 
@@ -302,8 +302,9 @@
         width: 100%;
         justify-content: center;
         align-items: center;
-        left: -15%;
+        left: -3em;
         position: relative;
+        top: 4em;
     }
 
     .textPrinc {
@@ -319,7 +320,7 @@
     }
 
     .textoh2 {
-        top: 70%;
+        top: 7em;
         left: -3%;
         position: absolute;
         width: 75%;
@@ -327,7 +328,7 @@
 
     .textoh3 {
         position: absolute;
-        top: 315%;
+        top: 22em;
         left: -3%;
         width: 75%;
     }
@@ -338,7 +339,7 @@
         width: 30px;
         height: 30px;
         flex-shrink: 0;
-        top: 568%;
+        top: 40em;
         position: absolute;
         left: 25%;
     }
@@ -348,7 +349,7 @@
         height: 25px;
         fill: #565252;
         position: absolute;
-        top: 570%;
+        top: 40em;
         left: 37%;
     }
 
@@ -357,7 +358,7 @@
         height: 25px;
         fill: #565252;
         position: absolute;
-        top: 570%;
+        top: 40em;
         left: 45%;
     }
 
@@ -366,13 +367,13 @@
         height: 25px;
         fill: #565252;
         position: absolute;
-        top: 570%;
+        top: 40em;
         left: 53%;
     }
 
     .textoh4 {
         position: absolute;
-        top: 545%;
+        top: 35.6em;
         left: -3%;
     }
 }

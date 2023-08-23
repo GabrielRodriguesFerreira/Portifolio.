@@ -73,7 +73,7 @@
     font-weight: 400;
     line-height: normal;
     position: absolute;
-    top: 60%;
+    top: 2.5em;
     cursor: default;
     transition: background-color 0.3s ease-in-out;
     --animation-delay: var(--delay, 0);
@@ -107,7 +107,7 @@
     line-height: normal;
     width: 70%;
     position: absolute;
-    top: 100%;
+    top: 7em;
     cursor: default;
     transition: background-color 0.3s ease-in-out;
     --animation-delay: var(--delay, 0);
@@ -151,7 +151,7 @@
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
     --animation-iterations: var(--iterations, 1);
-    top: 200%;
+    top: 19em;
     animation-name: clip-text;
     color: #FFF;
     cursor: default;
@@ -199,7 +199,7 @@
 
     .h2frontStart {
         font-size: 28px;
-        top: 75%;
+        top: 4em;
         width: 80%;
     }
 
@@ -208,12 +208,12 @@
     }
 
     .h3frontStart {
-        top: 150%;
+        top: 11em;
         width: 95%;
     }
 
     .botaoStart {
-        top: 350%;
+        top: 30em;
     }
 
 }
