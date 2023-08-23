@@ -1,25 +1,58 @@
-.divExp {
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    width: 565px;
-    flex-shrink: 0;
+.exp__container {
+    position: relative;
+    top: 9em;
+    left: 17.5em;
+    width: 100vw;
 }
 
-.textPrincExp {
+.exp__linhas {
+    gap: 30em;
+    width: 100vw;
+    margin-bottom: 1.5em;
+}
+
+.exp__h2 {
     color: #FFF;
     font-family: Paytone One;
-    font-size: 64px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    cursor: default;
-    transition: background-color 0.3s ease-in-out;
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
     --animation-iterations: var(--iterations, 1);
     animation-name: clip-text;
     color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 20em;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.exp__h3 {
+    color: #FFF;
+    font-family: Pavanam;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    --animation-delay: var(--delay, 1);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
     cursor: default;
 
     &::after {
@@ -36,9 +69,113 @@
         pointer-events: none;
         animation-name: text-revealer;
     }
+
 }
 
-.spanPontoExp {
+.exp__h2__cargo {
+    color: #00E833;
+    font-family: Pavanam;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100vw;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 11em;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.exp__h2__viasoft {
+    color: #FFF;
+    font-family: Paytone One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100vw;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 15em;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.exp__div {
+    position: relative;
+    left: 18em;
+    top: 7em;
+}
+
+.exp__h1 {
+    color: #FFF;
+    font-family: Paytone One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 13em;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.exp__span {
     color: #00E833;
     font-family: Paytone One;
     font-size: 64px;
@@ -47,99 +184,98 @@
     line-height: normal;
 }
 
-.linhaExp {
-    width: 486px;
-    height: 1px;
+.exp__linha {
     background: #FFF;
+    width: 6em;
+    height: 1px;
 }
 
-.tituloExp {
-    display: flex;
-    width: 861px;
-    justify-content: center;
-    align-items: center;
+@media screen and (max-width: 768px) {
+    .exp__div {
+        left: 4em;
+        top: 5em;
+    }
+
+    .exp__h1 {
+        font-size: 30px;
+    }
+
+    .exp__span {
+        font-size: 30px;
+    }
+
+    .exp__linha {
+        width: 100px;
+    }
+
+    .exp__container {
+        left: 3.5em;
+        top: 8em;
+    }
+
+    .exp__linhas {
+        width: 100vw;
+        gap: 0em;
+        margin-bottom: 1em;
+    }
+
+    .exp__h2 {
+        font-size: 16px;
+    }
+
+    .exp__h3 {
+        font-size: 14px;
+    }
+
+    .exp__h2__cargo {
+        font-size: 14px;
+        margin-top: -1em;
+    }
+
+    .exp__h2__viasoft {
+        font-size: 16px;
+    }
 }
 
-.h2Empresas {
-    color: #FFF;
-    font-family: Paytone One;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.exp__h1,
+.exp__h1::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.center {
-    display: flex;
-    width: 900px;
-    justify-content: center;
-    align-items: center;
-    gap: 630px;
+.exp__h2,
+.exp__h2::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.viasoftAprendiz {
-    display: flex;
-    width: 910px;
-    justify-content: center;
-    align-items: center;
-    gap: 600px;
+.exp__h2__cargo,
+.exp__h2__cargo::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.viasoftTeste {
-    display: flex;
-    width: 910px;
-    justify-content: center;
-    align-items: center;
-    gap: 600px;
+.exp__h3,
+.exp__h3::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
 }
 
-.h2Empresasviasoft {
-    color: #FFF;
-    font-family: Paytone One;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 
-.H3Empresas {
-    color: #FFF;
-    font-family: Pavanam;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.cargo {
-    color: #00E833;
-    font-family: Pavanam;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: left;
-}
-
-.cargoEmpresa {
-    display: flex;
-    width: 910px;
-    justify-content: center;
-    align-items: center;
-    gap: 690px;
-}
-
-.cidade {
-    color: #FFF;
-    font-family: Pavanam;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.textPrincExp,
-.textPrincExp::after {
+.exp__h2__viasoft,
+.exp__h2__viasoft::after {
     animation-delay: var(--animation-delay, 2s);
     animation-iteration-count: var(--iterations, 1);
     animation-duration: var(--duration, 800ms);

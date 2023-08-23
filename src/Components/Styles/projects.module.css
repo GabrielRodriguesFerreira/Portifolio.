@@ -61,23 +61,6 @@ body::-webkit-scrollbar {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
-
-.item__span {
-    color: #00E833;
-    font-family: Paytone One;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.item__text {
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 20em;
-    top: 2em;
     --animation-delay: var(--delay, 0);
     --animation-duration: var(--duration, 800ms);
     --animation-iterations: var(--iterations, 1);
@@ -98,6 +81,23 @@ body::-webkit-scrollbar {
         pointer-events: none;
         animation-name: text-revealer;
     }
+}
+
+.item__span {
+    color: #00E833;
+    font-family: Paytone One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item__text {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 20em;
+    top: 2em;
 }
 
 .item__svg__h1 {
@@ -156,6 +156,8 @@ body::-webkit-scrollbar {
     .item__svg__h1 {
         width: 9em;
         top: 2em;
+        position: relative;
+        margin-top: -4.5em;
     }
 
     .item__h1 {
@@ -169,8 +171,8 @@ body::-webkit-scrollbar {
     }
 }
 
-.item__text,
-.item__text::after {
+.item__h1,
+.item__h1::after {
     animation-delay: var(--animation-delay, 2s);
     animation-iteration-count: var(--iterations, 1);
     animation-duration: var(--duration, 800ms);
