@@ -1,7 +1,6 @@
 import React from "react";
 import style from "../../Styles/pageStart.module.css";
 import Svgs from "Components/Svgs";
-import ContactApp from "../PageContactApp";
 
 export default function PageStart() {
   return (
@@ -26,7 +25,10 @@ export default function PageStart() {
             </span>
           </h3>
           <button className={style.botaoStart}>
-            <a className={style.emailStart} href={<ContactApp />}>
+            <a
+              className={style.emailStart}
+              href="mailto:gabrielrferreira0306@gmail.com?subject=Assunto do email&cc=copia@provedor.com.br&bcc=copiaoculta@provedor.com.br&body=Conteúdo do email que será preenchido automaticamente"
+            >
               Contato
             </a>
           </button>
