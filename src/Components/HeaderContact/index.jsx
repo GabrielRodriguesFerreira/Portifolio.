@@ -1,7 +1,7 @@
 import React from "react";
-import style from "../Styles/header.module.css";
+import style from "../Styles/headerContact.module.css";
 
-export default function Header() {
+export default function HeaderContact() {
   return (
     <>
       <nav className={style.nav}>

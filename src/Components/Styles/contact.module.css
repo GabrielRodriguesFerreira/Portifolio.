@@ -1,0 +1,236 @@
+.contact__container {
+    width: 100vw;
+    position: relative;
+    left: 20em;
+    top: 13em
+}
+
+.contact__h1 {
+    color: #FFF;
+    font-family: Paytone One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 13em;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.contact__span {
+    color: #00E833;
+    font-family: Paytone One;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact__h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Pavanam;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 35em;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.contact__span__link {
+    color: #00E833;
+    font-family: Pavanam;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.contact__a {
+    text-decoration: none;
+}
+
+.contact__h3 {
+    color: #FFF;
+    text-align: center;
+    font-family: Paytone One;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    gap: 1em;
+    --animation-delay: var(--delay, 0);
+    --animation-duration: var(--duration, 800ms);
+    --animation-iterations: var(--iterations, 1);
+    animation-name: clip-text;
+    color: #FFF;
+    cursor: default;
+
+    &::after {
+        content: "";
+        position: absolute;
+        z-index: 999;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #00E833;
+        transform: scaleX(0);
+        transform-origin: 0 50%;
+        pointer-events: none;
+        animation-name: text-revealer;
+    }
+}
+
+.contact__svg {
+    width: 32px;
+    height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .contact__container {
+        left: 5.5em;
+        top: 12em;
+    }
+
+    .contact__h1 {
+        text-align: center;
+        font-size: 30px;
+        width: 5.5em;
+        left: 0.5em;
+        position: relative;
+    }
+
+    .contact__span {
+        font-size: 30px;
+    }
+
+    .contact__h2 {
+        font-size: 20px;
+        text-align: center;
+        width: 10em;
+        margin-top: 1em;
+    }
+
+    .contact__span__link {
+        font-size: 20px;
+    }
+
+    .contact__h3 {
+        font-size: 16px;
+        text-align: center;
+        width: 20em;
+        align-items: center;
+        display: block;
+        left: -3em;
+        position: relative;
+    }
+
+    .contact__svg {
+        display: none;
+    }
+}
+
+.contact__h1,
+.contact__h1::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.contact__h2,
+.contact__h2::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+.contact__h3,
+.contact__h3::after {
+    animation-delay: var(--animation-delay, 2s);
+    animation-iteration-count: var(--iterations, 1);
+    animation-duration: var(--duration, 800ms);
+    animation-fill-mode: both;
+    animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+@keyframes clip-text {
+    from {
+        clip-path: inset(0 100% 0 0);
+    }
+
+    to {
+        clip-path: inset(0 0 0 0);
+    }
+}
+
+@keyframes text-revealer {
+
+    0%,
+    50% {
+        transform-origin: 0 50%;
+    }
+
+    60%,
+    100% {
+        transform-origin: 100% 50%;
+    }
+
+
+    60% {
+        transform: scaleX(1);
+    }
+
+    100% {
+        transform: scaleX(0);
+    }
+}

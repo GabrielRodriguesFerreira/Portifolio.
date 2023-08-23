@@ -1,4 +1,5 @@
 import PageAboutMeApp from "Components/Pages/PageAboutMeApp";
+import ContactApp from "Components/Pages/PageContactApp";
 import PageExpApp from "Components/Pages/PageExpApp";
 import ProjetcApp from "Components/Pages/PageProjectsApp";
 import PageStartApp from "Components/Pages/PageStartApp";
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/SobreMim" element={<PageAboutMeApp />}></Route>
           <Route path="/Projetos" element={<ProjetcApp />}></Route>
           <Route path="/Experiencia" element={<PageExpApp />}></Route>
+          <Route path="/Contatos" element={<ContactApp />}></Route>
         </Routes>
       </Router>
     </div>

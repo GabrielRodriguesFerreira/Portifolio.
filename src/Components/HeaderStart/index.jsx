@@ -20,7 +20,7 @@ export default function HeaderStart() {
           <a href="/Experiencia" className={style.a}>
             Experiências
           </a>
-          <a href="#Contatos" className={style.a}>
+          <a href="/Contatos" className={style.a}>
             Contatos
           </a>
         </div>
