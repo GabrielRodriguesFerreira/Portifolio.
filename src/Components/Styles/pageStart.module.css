@@ -218,6 +218,13 @@
 
 }
 
+@media screen and (min-width: 1370px) and (max-width: 1920px) {
+    .divPrincStart {
+        left: 20em;
+    }
+
+}
+
 ::selection {
     background-color: rgb(22, 22, 22);
     color: #00E833;

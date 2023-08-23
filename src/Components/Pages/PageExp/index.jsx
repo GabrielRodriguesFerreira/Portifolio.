@@ -26,7 +26,7 @@ export default function PageExp() {
             <h2 className={style.exp__h2}>Center - Norte</h2>
           </Col>
           <Col>
-            <h4 className={style.exp__h3}>2021 - 2021</h4>
+            <h4 className={style.exp__h3}>Pato - Branco</h4>
           </Col>
         </Row>
         <Row className={style.exp__linhas}>
@@ -34,7 +34,7 @@ export default function PageExp() {
             <h2 className={style.exp__h2__cargo}>Empacotador</h2>
           </Col>
           <Col>
-            <h3 className={style.exp__h3}>Pato - Branco</h3>
+            <h3 className={style.exp__h3}>2021 - 2021</h3>
           </Col>
         </Row>
         <Row className={style.exp__linhas}>
@@ -44,7 +44,7 @@ export default function PageExp() {
             </h2>
           </Col>
           <Col>
-            <h3 className={style.exp__h3}>2021 - 2023</h3>
+            <h3 className={style.exp__h3}>Pato - Branco</h3>
           </Col>
         </Row>
         <Row className={style.exp__linhas}>
@@ -52,7 +52,7 @@ export default function PageExp() {
             <h2 className={style.exp__h2__cargo}>Auxiliar Administrativo</h2>
           </Col>
           <Col>
-            <h3 className={style.exp__h3}>Pato - Branco</h3>
+            <h3 className={style.exp__h3}>2021 - 2023</h3>
           </Col>
         </Row>
         <Row className={style.exp__linhas}>
@@ -62,7 +62,7 @@ export default function PageExp() {
             </h2>
           </Col>
           <Col>
-            <h3 className={style.exp__h3}>2021 - 2021</h3>
+            <h3 className={style.exp__h3}>Pato - Branco</h3>
           </Col>
         </Row>
         <Row className={style.exp__linhas}>
@@ -70,7 +70,7 @@ export default function PageExp() {
             <h2 className={style.exp__h2__cargo}>Analista de Testes</h2>
           </Col>
           <Col>
-            <h3 className={style.exp__h3}>Pato - Branco</h3>
+            <h3 className={style.exp__h3}>2023 - Atual</h3>
           </Col>
         </Row>
       </Container>
