@@ -4,7 +4,7 @@
     viewBox: 0 0 20 20;
     fill: none;
     left: 5%;
-    top: 3%;
+    top: 2.5%;
     position: fixed;
 }
 
@@ -14,7 +14,7 @@
     viewBox: 0 0 20 20;
     fill: none;
     left: 7%;
-    top: 3%;
+    top: 2.5%;
     position: fixed;
 }
 
@@ -24,26 +24,26 @@
     viewBox: 0 0 20 20;
     fill: none;
     left: 9%;
-    top: 3%;
+    top: 2.5%;
     position: fixed;
 }
 
 @media screen and (max-width: 768px) {
     .linkedin {
         left: 14%;
-        top: 2.5%;
+        top: 2%;
         position: fixed;
     }
 
     .github {
         left: 22%;
-        top: 2.5%;
+        top: 2%;
         position: fixed;
     }
 
     .alura {
         left: 30%;
-        top: 2.5%;
+        top: 2%;
         position: fixed;
     }
 }

@@ -52,7 +52,9 @@ body {
     top: 0;
     left: -6%;
     color: #FFF;
-    padding: 30%;
+    margin-top: 0;
+    margin-bottom: 1.5em;
+    margin-left: -0.5em;
     text-decoration: none;
 }
 
@@ -67,11 +69,16 @@ body {
 
 @media screen and (max-width: 768px) {
     .navProjetcs {
-        width: 11%;
+        width: 10%;
     }
 
     .a {
         height: 120px;
+    }
+
+    .g {
+        font-size: 20px;
+        left: -0em;
     }
 }
 
